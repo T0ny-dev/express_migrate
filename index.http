@@ -1,0 +1,11 @@
+GET http://localhost:3000/projects HTTP/1.1
+
+###
+
+POST http://localhost:3000/projects HTTP/1.1
+
+  {
+    "name": "project1",
+    "priority": 10,
+    "description": "this is a one project"
+  }
